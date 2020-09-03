@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Higher Lower App</string>
+    <string name="higherLowerText">Guess if the next throw is lower, equal to or higher than the last throw.</string>
+    <string name="last_throw">Last Throw: %d</string>
+    <string name="score">Score: %d</string>
+    <string name="btnLower">Lower</string>
+    <string name="btnEqual">Equal</string>
+    <string name="btnHigher">Higher</string>
+    <string name="correct">Correct!</string>
+    <string name="inCorrect">Incorrect!</string>
+    <string name="dice">dice</string>
+</resources>
