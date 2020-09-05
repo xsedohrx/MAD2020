@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTrue11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/txtTrue"
+        app:layout_constraintStart_toStartOf="@+id/tvA"
+        app:layout_constraintTop_toBottomOf="@+id/tvA" />
+
+    <TextView
+        android:id="@+id/tvAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:text="@string/txtAB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvB" />
+
+    <TextView
+        android:id="@+id/tvB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/txtB"
+        app:layout_constraintEnd_toStartOf="@+id/tvAB"
+        app:layout_constraintStart_toEndOf="@+id/tvA"
+        app:layout_constraintTop_toBottomOf="@+id/tvDescription" />
+
+    <TextView
+        android:id="@+id/tvA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:text="@string/txtA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvB" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/txtDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTrue21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/txtTrue"
+        app:layout_constraintStart_toStartOf="@+id/tvB"
+        app:layout_constraintTop_toBottomOf="@+id/tvB" />
+
+    <TextView
+        android:id="@+id/tvTrue12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/txtTrue"
+        app:layout_constraintStart_toStartOf="@+id/tvTrue11"
+        app:layout_constraintTop_toBottomOf="@+id/tvTrue11" />
+
+    <TextView
+        android:id="@+id/tvFalse22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/txtFalse"
+        app:layout_constraintStart_toStartOf="@+id/tvTrue21"
+        app:layout_constraintTop_toBottomOf="@+id/tvTrue21" />
+
+    <TextView
+        android:id="@+id/tvFalse13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/txtFalse"
+        app:layout_constraintStart_toStartOf="@+id/tvTrue12"
+        app:layout_constraintTop_toBottomOf="@+id/tvTrue12" />
+
+    <TextView
+        android:id="@+id/tvTrue23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/txtTrue"
+        app:layout_constraintStart_toStartOf="@+id/tvFalse22"
+        app:layout_constraintTop_toBottomOf="@+id/tvFalse22" />
+
+    <TextView
+        android:id="@+id/tvFalse14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/txtFalse"
+        app:layout_constraintStart_toStartOf="@+id/tvFalse13"
+        app:layout_constraintTop_toBottomOf="@+id/tvFalse13" />
+
+    <TextView
+        android:id="@+id/tvFalse24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/txtFalse"
+        app:layout_constraintStart_toStartOf="@+id/tvTrue23"
+        app:layout_constraintTop_toBottomOf="@+id/tvTrue23" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="@string/txtSubmit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/et31"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:labelFor="@id/tvAB"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvAB"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/tvAB"
+        app:layout_constraintTop_toBottomOf="@+id/tvAB" />
+
+    <EditText
+        android:id="@+id/et32"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:labelFor="@id/tvAB"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/et31"
+        app:layout_constraintStart_toStartOf="@+id/et31"
+        app:layout_constraintTop_toBottomOf="@+id/et31" />
+
+    <EditText
+        android:id="@+id/et33"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:labelFor="@id/tvAB"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/et32"
+        app:layout_constraintStart_toStartOf="@+id/et32"
+        app:layout_constraintTop_toBottomOf="@+id/et32" />
+
+    <EditText
+        android:id="@+id/et34"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:labelFor="@id/tvAB"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/et33"
+        app:layout_constraintStart_toStartOf="@+id/et33"
+        app:layout_constraintTop_toBottomOf="@+id/et33" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
