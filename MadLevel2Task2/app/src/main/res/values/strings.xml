@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MadLevel2Task2</string>
+    <string name="app_description">Quiz instructions</string>
+    <string name="app_instructions">Swipe Left for true, Right for false</string>
+    <string name="correct">Correct</string>
+    <string name="incorrect">"Incorrect, The question will not be removed "</string>
+</resources>
